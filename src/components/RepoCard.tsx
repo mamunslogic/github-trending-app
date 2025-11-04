@@ -9,10 +9,7 @@ interface RepoCardProps {
 
 const RepoCard: React.FC<RepoCardProps> = ({ repo }) => {
   return (
-    <a
-      href={repo.html_url}
-      target="_blank"
-      rel="noopener noreferrer"
+    <div
       className="border rounded-md p-4 bg-gray-800 text-white hover:bg-gray-700 transition flex flex-col gap-2"
     >
       <h2 className="text-xl font-bold">{repo.name}</h2>
@@ -32,7 +29,7 @@ const RepoCard: React.FC<RepoCardProps> = ({ repo }) => {
           {(<FaStar />) as JSX.Element} {repo.stargazers_count}
         </div>
       </div>
-    </a>
+    </div>
   );
 };
 
