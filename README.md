@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# GitHub Trending Repositories App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A small responsive web app built with **React**, **TypeScript**, and **TailwindCSS** that lists the most starred GitHub repositories created in the last 10 days.  
 
-## Available Scripts
+This project was developed as part of a **React Developer assessment**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Fetches **most starred GitHub repositories** from the last 10 days.
+- Displays repositories in a clean **list view**, one per row.
+- Each repository shows:
+  - **Name**
+  - **Description**
+  - **Owner's avatar and username**
+  - **Star count**
+- **Infinite scroll/pagination** for loading more repositories.
+- Fully **responsive** design for mobile and desktop.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot 1](./screenshots/screenshot1.png)  
+![Screenshot 2](./screenshots/screenshot2.png)
 
-### `npm run build`
+> *Optional: Add screenshots if available.*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React 18** + **TypeScript**
+- **TailwindCSS** for styling
+- **Axios** for API requests
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Getting Started
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Node.js v18+  
+- npm v9+  
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Install Dependencies
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
